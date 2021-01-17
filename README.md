@@ -9,6 +9,13 @@ Opencv_test 폴더
 
 * captcha hacking프로젝트는 나동빈님(https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw) 의 강의 영상을 바탕으로 만들어졌습니다.
 
+실행 순서
+------------
+
+* captcha hack 프로젝트 - src - run.py
+
+* Opencv_test - Captcha Hacking - make_train_data(각 숫자에 맞는 키보드를 누릅니다.+는a,-는b,*는c를 입력합니다) - knn_trainer.py - run.py
+
 ### utils.py 
 <img src="https://github.com/Pulyong/first_KNN_opencv/blob/master/Opencv_test/1.png?raw=true" width="250px" height="150px" title="px(픽셀) 크기 설정" alt="number"></img>
 * get_chars는 위의 사진에서 실제로 필요한 부분을 색깔 별로 나누는 함수입니다. 색깔별로 원하는 색을 제외한 부분은 검은색으로 변환시킵니다.
