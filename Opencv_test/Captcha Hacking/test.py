@@ -2,7 +2,7 @@ import cv2
 import utils
 import os
 
-
+os.chdir("C:/Users/rla02/OneDrive/바탕 화면/용진/파이썬/Git/opencv_Knn/Opencv_test")
 image = cv2.imread('1.png', cv2.IMREAD_COLOR)
 blue = utils.get_chars(image.copy(), utils.BLUE)
 green = utils.get_chars(image.copy(), utils.GREEN)

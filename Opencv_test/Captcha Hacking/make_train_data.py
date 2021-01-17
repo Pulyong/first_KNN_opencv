@@ -2,6 +2,7 @@ import os
 import cv2
 import utils
 
+
 # training_data 폴더 생성 및 내부에 0,1,2,3,4,5,6,7,8,9,10,11,12 폴더생성
 image = cv2.imread("4.png")
 chars = utils.extract_chars(image)
@@ -18,4 +19,4 @@ for char in chars:
     elif input == ord('a') or input == ord('b') or input == ord('c'):
         name = str(input - ord('a') + 10)
         file_count = len(next(os.walk('./training_data/' + name + '/'))[2])
-        cv2.imwrite('./training_data/' + name + '/' + str(file_count + 1) + '.png', resized) ./training_data/1/
+        cv2.imwrite('./training_data/' + name + '/' + str(file_count + 1) + '.png', resized)        

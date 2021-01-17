@@ -3,6 +3,7 @@ import numpy as np
 import re
 import os
 
+os.chdir("C:/Users/rla02/OneDrive/바탕 화면/용진/파이썬/Git/opencv_Knn/Opencv_test")
 BLUE = 0
 GREEN = 1
 RED = 2
